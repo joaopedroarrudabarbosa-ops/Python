@@ -1,0 +1,1 @@
+n = int(input("Digite um numero inteiro positivo para somar todos os algarismos dele: "))
