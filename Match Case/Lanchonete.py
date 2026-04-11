@@ -75,11 +75,3 @@ while resp == "s":
                     print(valor)
                 case _:
                     print(erro)
-
-            total += valor
-        if 1 <= opc <= 3 and 1 <= pedido <= 2:
-            print(total, valor)
-        resp = input("Deseja continuar? S/N: ")
-
-    if total > 0:
-        print(f"Seu pedido custará {total:.2f}.")
