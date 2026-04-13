@@ -3,10 +3,11 @@
 # range(stop)
 # range(start,stop)
 # range(start,stop,step)
-lista = [
-    [1,3,4],
-    [5,6,7],
-    [8,9]
-]
-print(lista)
 
+# crescente
+for i in range(1,11,2):
+    print(i)
+
+# decrescente
+for var in range(10,0,-2):
+    print(var)
