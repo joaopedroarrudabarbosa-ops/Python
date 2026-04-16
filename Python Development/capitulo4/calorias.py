@@ -15,5 +15,5 @@ for caloria, refeicao in zip (calorias, refeicoes):
     print(f"Na {cont} refeição, você comeu {refeicao} que totalizou {caloria} calorias.")
     cont += 1
     total = total + caloria
-print(calorias)
-print(f"Foram totalizados {total} calorias.")
+media = total / len(calorias)
+print(f"Neste dia houve um consumo medio de {media} calorias.")
