@@ -7,4 +7,3 @@ primos = []
 for i in range(30):
     lista.append(random.randint(1,50))
 print(f"Lista principal: {lista}")
-if
